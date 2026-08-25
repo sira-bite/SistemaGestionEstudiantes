@@ -16,7 +16,7 @@ public class main {
     public static void main(String[] args) {
         // TODO code application logic here
          Estudiante estudiante = 
-                new Estudiante("C12345", "Ana", "ma@gmail.com"); 
+                new Estudiante("C12345", "Ana"); 
   
         System.out.println(estudiante.mostrarInformacion()); 
         

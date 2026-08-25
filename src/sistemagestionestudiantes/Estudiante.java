@@ -10,13 +10,11 @@ package sistemagestionestudiantes;
  */
 public class Estudiante {
      private String carnet; 
-    private String nombre;
-    private String correo;
+    private String nombre; 
   
-    public Estudiante(String carnet, String nombre, String correo) { 
+    public Estudiante(String carnet, String nombre) { 
         this.carnet = carnet; 
         this.nombre = nombre; 
-        this.correo = correo;
     } 
   
     public String getCarnet() { 
@@ -27,12 +25,7 @@ public class Estudiante {
         return nombre; 
     } 
   
-    public String getCorreo() {
-        return correo;
-    }
-    
-     public String mostrarInformacion() { 
-        return carnet + " - " + nombre + " - " + correo; 
+    public String mostrarInformacion() { 
+        return carnet + " - " + nombre; 
     } 
-
 }
