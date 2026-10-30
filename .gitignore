@@ -5,11 +5,9 @@
   
 # Configuración privada de NetBeans 
 /nbproject/private/ 
-Guía completa de Git y GitHub · Java + Apache NetBeans 
-  
 # Archivos temporales 
 *.log 
 *.tmp 
   
 # Variables/secretos locales, si existieran 
-.env
+.env 
